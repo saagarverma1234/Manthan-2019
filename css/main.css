@@ -139,9 +139,6 @@ iframe {
 }
 
 
-
-
-
 /*//////////////////////////////////////////////////////////////////
 [ Contact ]*/
 
@@ -158,23 +155,23 @@ iframe {
   align-items: center;
   padding: 15px;
   background: #a64bf4;
-  background: -webkit-linear-gradient(45deg, #00dbde, #fc00ff);
-  background: -o-linear-gradient(45deg, #00dbde, #fc00ff);
-  background: -moz-linear-gradient(45deg, #00dbde, #fc00ff);
-  background: linear-gradient(45deg, #00dbde, #fc00ff);
-  
+  background: -webkit-linear-gradient(95deg, #00dbde, #fc00ff);
+  background: -o-linear-gradient(95deg, #00dbde, #fc00ff);
+  background: -moz-linear-gradient(95deg, #00dbde, #fc00ff);
+  background: linear-gradient(95deg, #00dbde, #fc00ff);
+  flex-direction: column;
 }
 
 .container-contact100 h2 {
   color: white;
-  display: inline-block;
+  display: block!important;
 }
 
 .container-contact100 img {
   width: 100%;
   max-width: 600px;
   height: auto;
-  display: inline-block;
+  display: block;
 }
 
 span a {
@@ -607,18 +604,16 @@ textarea.input100 {
   position: relative;
   margin: 20px;
   overflow: hidden;
-  width: 120px;
-  height: 90px;
+  width: 160px;
+  height: 100px;
 }
-
 .container {
   position: relative;
   margin: 20px;
   overflow: hidden;
-  width: 280px;
-  height: 150px;
+  width: 160px;
+  height: 140px;
 }
-
 .hidden {
   display: none;
 }
@@ -626,11 +621,9 @@ textarea.input100 {
   height: 25px;
   position: absolute;
   width: 160px;
-  left: 8px;
-  margin-top: 10px;
 }
 .entry:nth-child(2) {
-  left: 8px
+  left: 8px;
   top: 8px;
 }
 .entry:nth-child(4) {
@@ -658,7 +651,6 @@ textarea.input100 {
   padding-left: 40px;
   user-select: none;
   -moz-user-select: none;
-  width: 250px;
 }
 .overlay {
   background: #fff;
@@ -701,6 +693,3 @@ textarea.input100 {
 .check:checked ~ .containerOuter .overlay {
   background: #ecf0f4;
 }
-
-
-
